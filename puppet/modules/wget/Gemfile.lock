@@ -55,7 +55,7 @@ GEM
       json
     domain_name (0.5.24)
       unf (>= 0.0.5, < 1.0.0)
-    excon (0.45.4)
+    excon (0.99.0)
     extlib (0.9.16)
     facter (1.7.6)
     faraday (0.9.1)
@@ -314,7 +314,7 @@ PLATFORMS
 DEPENDENCIES
   beaker-rspec (>= 3.0.0)
   librarian-puppet (>= 2.0.0)
-  puppet (~> 3.6.0)
+  puppet (>= 2.7)
   puppet-blacksmith (>= 3.3.0)
   puppet-lint (>= 1.1.0)
   puppetlabs_spec_helper (>= 0.8.0)
